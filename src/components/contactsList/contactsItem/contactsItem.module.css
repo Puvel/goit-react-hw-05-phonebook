@@ -1,0 +1,25 @@
+.contactsItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  box-shadow: 0px 0px 5px black;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+}
+
+.contactName,
+.contactNamber {
+  font-weight: 600;
+  font-size: 20px;
+}
+.contactsItemBtn {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(250, 8, 8);
+  border: none;
+  border-radius: 5px;
+  color: azure;
+  font-weight: 600;
+  cursor: pointer;
+}
